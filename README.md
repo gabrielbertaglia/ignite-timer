@@ -47,7 +47,7 @@ This is a website for creating and managing tasks using the Pomodoro technique, 
 <h3>Prerequisites</h3>
 
 - [NodeJS LTS](https://nodejs.org/en)
-- [Git 2](https://www.git-scm.com)
+- [Git](https://www.git-scm.com)
 
 <h3>Cloning</h3>
 
