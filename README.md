@@ -30,11 +30,11 @@
 
 ## Technologies
 
--- ReactJS
--- TypeScript
--- Context API
--- Reducer
--- Git e Github
+- ReactJS
+- TypeScript
+- Context API
+- Reducer
+- Git e Github
 
 ## 📌 About
 
