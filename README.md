@@ -1,30 +1,64 @@
-# React + TypeScript + Vite
+[VITE__BADGE]: https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E
+[TYPESCRIPT__BADGE]: https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
+[REACT__BADGE]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[REACT_ROUTER__BADGE]: https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white
+[STYLED_COMPONENTS__BADGE]: https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white
+[PROJECT__BADGE]: https://img.shields.io/badge/📱Visit_this_project-000?style=for-the-badge&logo=project
+[PROJECT__URL]: https://github.com/Fernanda-Kipper/Readme-Templates
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h1 align="center" style="font-weight: bold;">Timer 💻</h1>
 
-Currently, two official plugins are available:
+![react][REACT__BADGE]
+![typescript][TYPESCRIPT__BADGE]
+![vite][VITE__BADGE]
+![react router][REACT_ROUTER__BADGE]
+![styled components][STYLED_COMPONENTS__BADGE]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
 
-## Expanding the ESLint configuration
+<br>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<p align="center">
+    <img src="./github/timer.png" alt="page timer" width="100%">
+    <img src="./github/tasks.png" alt="page tasks" width="100%">
+</p>
 
-- Configure the top-level `parserOptions` property like this:
+## Technologies
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+-- ReactJS
+-- TypeScript
+-- Context API
+-- Reducer
+-- Git e Github
+
+## 📌 About
+
+This is a website for creating and managing tasks using the Pomodoro technique, with countdown timers.
+
+<!-- [![project][PROJECT__BADGE]][PROJECT__URL] -->
+
+## 🚀 Getting started
+
+<h3>Prerequisites</h3>
+
+- [NodeJS LTS](https://nodejs.org/en)
+- [Git 2](https://www.git-scm.com)
+
+<h3>Cloning</h3>
+
+```bash
+git clone https://github.com/gabrielbertaglia/ignite-timer.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+<h3>Starting</h3>
+
+```bash
+cd ignite-timer
+npm install
+npm run dev
+```
